@@ -1,54 +1,58 @@
-# Ex.No.  - SIMULATION OF POST PROCESSING IN ADDITIVE MANUFACTURING
+# Ex. No.3   - PROTOTYPE PART MODEL DESIGN IN 3D PRINTER
 
-### DATE: 08/05/2025
-
+### DATE: 23-11-2025
 ## AIM: 
-### To simulate the post processing of 3d printed parts via support Removal, UV Curing & Heat Treatment.
+### To prototype the given part model design in 3D Printer.
 
 ## REQUIREMENTS:
-### System - Windows 7 or higher, 1 GB RAM.
+### ●	3D Printer machine.
+### ●	CURA 4.0 Software.
+### ●	Autodesk Fusion 360 Software.
+### ●	System - Windows 7 or higher, 1 GB RAM.
 
 ## PROCEDURE:
 
-## Procedure for support removal
-### 1.	Select support removal from the list.
-### 2.	All the parts related to support removal are shown on the screen.
-### 3.	Select the parts in sequence in which they are shown.
-### 4.	When the first part is selected then it will open in the blank space in the left side of the screen.
-### 5.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
+### Step 1:- Check all Electrical connections.
 
-## Procedure for UV Curing
-### 1.	Select UV curing from the list.
-### 2.	All the parts related to UV curing are shown on the screen.
-### 3.	Select the parts in sequence in which they are shown.
-### 4.	When the first part will be selected then it will open in the blank space on the left side of the screen.
-### 5.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
+### Step 2:- First we install the software related the 3D printer (idea maker, ultimaker etc.)In idea maker first open the software and click the open file option as shown in below figure.
 
-## Procedure for heat treatment
-### 1.	Select heat treatment from the list.
-### 2.	All the parts related to heat treatment are shown on the screen.
-### 3.	Select the parts in sequence in which they are shown.
-### 4.	When the first part is selected then it will open in the blank space in the left side of the screen.
-### 5.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/059ab4e7-f3fb-49a9-ba8e-12bdd082abef)
 
-## OUTPUT :
+### Step 3:- select the Pan option and select the extruder (left of right) for printing the design and then after select the Repair option for auto correction of design of software parameter as shown in below figure.
 
-## Support Removal Process
-![1234_1](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/772fb2a3-62b2-4654-8777-d06c89da300e)
-![1234_2](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/54ddd8f1-cf4e-4812-9573-129f16839b59)
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/835c55fd-6195-4d73-9f5c-4af36f5a4cce)
 
-## UV Curing of 3D printed part
-![1234_1](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/b8aaa899-f319-4192-9dd7-126717137bfd)
-![1234_2](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/5fa69c3d-4e61-4226-b2ad-b0765c0cd498)
+### Step 4.:- select the Move option for design print position in build tack plate and then after select the Rotate option for rotate the design easily printed and used low print material as shown in below figure.
 
-## Heat Treatment of 3D printed part
-![123_1](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/22c2fbe1-2159-46bf-b6aa-d7704484aa8a)
-![123_2](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/2801d001-e6cd-4b6c-9d5f-712067d3bc3c)
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/8736080c-f421-4dd0-bae8-860df6f3583e)
+
+### Step 5.:- select the Scale option for design scale according to build plate area and then after click the start option and select printing option standard as shown in below figure.
+
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/98458892-2f68-4de0-bec7-24959ec598fa)
+
+### Step 6.:- After completing all settings then click the Slice option and export the file in gcode format.
+
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/f4b8b55e-6cb2-46a7-b42c-180bc5e68668)
+
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/eafa933a-7e03-4f73-930d-75fb28d48716)
+
+### Step 7.:- After generating the gcode format then follow the these instruction as shown in below figure.
+###   1.	Switch on the 3d printer.
+###   2.	Place your Pen drive in USB.
+###   3.	Clean the surface bed plate.
+###   4.	Load filament into the required extruder as per the requirement.
+###   5.	Wait until the nozzle & bed plate comes into the required temperature.
+###   6.	Close the doors of the 3d printer.
+###   7.	Open the file from the USB storage and select the Print option.
 
 ## Output:
-![image](https://github.com/user-attachments/assets/9feabf5f-8077-49e6-a500-47771c9235de)
+
+<img width="1919" height="1140" alt="image" src="https://github.com/user-attachments/assets/676aa401-1123-4a27-93ce-7e773b330c42" />
+<img width="1918" height="1135" alt="image" src="https://github.com/user-attachments/assets/f561f3a8-5af0-4b3b-ab62-08571388dd2d" />
 
 
+### Name:ASWIN L
+### Register Number:212224230028
 
-## Result: 
-### Thus the simulation on the Postprocessing in additive manufacturing is completed.
+## RESULT:
+###   Thus a prototype of the given part model is developed using 3D Printer.
